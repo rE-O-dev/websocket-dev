@@ -17,7 +17,7 @@ window.onload = function() {
                 event.preventDefault();
                 send();
             }
-        }, 300);
+        }, 200);
 
     })
 };

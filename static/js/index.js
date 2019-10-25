@@ -3,13 +3,22 @@ let socket  = io();
     
 
 window.onload = function() {
-    let input   = document.getElementById('test');
-
+    let input   = document.getElementById('test'),
+        timer;
     input.addEventListener("keyup", event => {
-        if(event.keyCode == 13) {
-            event.preventDefault();
-            send();
+       
+        if(timer) {
+            clearTimeout(timer);
         }
+
+        timer = setTimeout( () => {
+            if(event.keyCode == 13) {
+                console.log(event.target.value);
+                event.preventDefault();
+                send();
+            }
+        }, 300);
+
     })
 };
 

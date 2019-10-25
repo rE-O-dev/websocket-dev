@@ -1,0 +1,26 @@
+{
+  "name": "websocket-dev",
+  "version": "1.0.0",
+  "description": "websocket-platice",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rE-O-dev/websocket-dev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rE-O-dev/websocket-dev/issues"
+  },
+  "homepage": "https://github.com/rE-O-dev/websocket-dev#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4",
+    "route": "^0.2.5",
+    "socket.io": "^2.3.0"
+  }
+}

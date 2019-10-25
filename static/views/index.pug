@@ -1,0 +1,13 @@
+html
+    head
+        link(rel="stylesheet" href="/css/index.scss")
+        script(src="/socket.io/socket.io.js")
+        script(src="/js/index.js")
+    body
+        div(id="main")
+            div(id="chat-container")
+            
+            div
+                input(type="text" id="test")
+                button(id="send" onClick="send()") 전송
+

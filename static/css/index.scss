@@ -1,0 +1,44 @@
+#main {
+    margin: auto;
+    margin-top: 10px;
+    background-color: lightblue;
+    text-align: center;
+    width: 500px;
+    height: 100%;
+}
+
+#chat-container {
+    height: 90%;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.connect, .disconnect {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 18px;
+}
+
+.connect {
+    background-color: aquamarine;
+}
+
+.disconnect {
+    background-color: indianred;
+}
+
+.me, .other {
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.me {
+    background-color: lemonchiffon;
+}
+
+.other {
+    background-color: white;
+}
